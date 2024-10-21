@@ -4,7 +4,7 @@ def convert_html_to_pdf(html_file, pdf_file):
     # Configure the path to wkhtmltopdf
     try:
         # Configure the path to wkhtmltopdf
-        path_to_wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
+        path_to_wkhtmltopdf = r"/home/leonardo/Downloads\wkhtmltox_0.12.6.1-2.jammy_arm64.deb"
         config = pdfkit.configuration(wkhtmltopdf=path_to_wkhtmltopdf)
         options = {
             'encoding': 'UTF-8',  # Força a codificação correta

@@ -31,7 +31,7 @@ first_search = True
 # Quantidade máxima de tentativas para cada questão
 max_attempts = 5
 browser = None
-for i in range(360):
+for i in range(1025):
     attempts = 0  # Contador de tentativas para cada questão
     question_found = False  # Flag para determinar se a questão foi encontrada
     
