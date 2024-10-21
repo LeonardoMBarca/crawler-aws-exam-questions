@@ -11,7 +11,7 @@ def setup_browser(profile_path, tor_browser_path, geckodriver_path):
     options.profile = profile
     options.binary_location = tor_browser_path
     options.add_argument("window-size:800,1000")
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     
     service = Service(executable_path=geckodriver_path)
     return webdriver.Firefox(service=service, options=options)

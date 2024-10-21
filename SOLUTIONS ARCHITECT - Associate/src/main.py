@@ -18,7 +18,7 @@ tor_browser_path = r'/home/leonardo/Desktop/tor-browser/Browser/firefox'
 with open(user_agents_file, mode="r") as f:
     agents_list = f.read().splitlines()
 
-regex_url = r"(https://www\.examtopics\.com/discussions/amazon/view/)(\d{2,8})(exam-aws-certified-solutions-architect-associate-saa-c03/)"
+regex_url = r"(https://www\.examtopics\.com/discussions/amazon/view/)(\d{2,8})(-exam-aws-certified-solutions-architect-associate-saa-c03/)"
 regex_number = r"Question\s#:\s(\d+)"
 regex_image = r"\[IMAGE:\s(https://.*?)(\sFIM)]"
 
